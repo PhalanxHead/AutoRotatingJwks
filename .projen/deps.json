@@ -1,6 +1,10 @@
 {
   "dependencies": [
     {
+      "name": "@types/aws-lambda",
+      "type": "build"
+    },
+    {
       "name": "@types/jest",
       "type": "build"
     },
@@ -21,11 +25,15 @@
     },
     {
       "name": "aws-cdk",
-      "version": "^2.1.0",
+      "version": "^2.39.0",
       "type": "build"
     },
     {
       "name": "esbuild",
+      "type": "build"
+    },
+    {
+      "name": "eslint-config-prettier",
       "type": "build"
     },
     {
@@ -38,6 +46,10 @@
     },
     {
       "name": "eslint-plugin-import",
+      "type": "build"
+    },
+    {
+      "name": "eslint-plugin-prettier",
       "type": "build"
     },
     {
@@ -59,8 +71,11 @@
       "type": "build"
     },
     {
-      "name": "npm-check-updates",
-      "version": "^15",
+      "name": "prettier",
+      "type": "build"
+    },
+    {
+      "name": "prettier-eslint",
       "type": "build"
     },
     {
@@ -80,13 +95,33 @@
       "type": "build"
     },
     {
+      "name": "@aws-sdk/client-cloudfront",
+      "type": "runtime"
+    },
+    {
+      "name": "@aws-sdk/client-kms",
+      "type": "runtime"
+    },
+    {
+      "name": "@aws-sdk/client-s3",
+      "type": "runtime"
+    },
+    {
       "name": "aws-cdk-lib",
-      "version": "^2.1.0",
+      "version": "^2.39.0",
+      "type": "runtime"
+    },
+    {
+      "name": "aws-lambda",
       "type": "runtime"
     },
     {
       "name": "constructs",
       "version": "^10.0.5",
+      "type": "runtime"
+    },
+    {
+      "name": "jose",
       "type": "runtime"
     }
   ],

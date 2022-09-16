@@ -36,8 +36,9 @@ junit.xml
 /coverage/
 !/.github/workflows/build.yml
 !/.mergify.yml
-!/.github/workflows/upgrade.yml
 !/.github/pull_request_template.md
+!/.prettierignore
+!/.prettierrc.json
 !/test/
 !/tsconfig.json
 !/tsconfig.dev.json
